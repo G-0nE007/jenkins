@@ -1,18 +1,9 @@
-import java.util.Scanner;
-
-public class EvenOrOdd {
+public class AddTwoNumbers {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        int num1 = 5; // Static input value 1
+        int num2 = 3; // Static input value 2
         
-        System.out.print("Enter a number: ");
-        int number = scanner.nextInt();
-        
-        if (number % 2 == 0) {
-            System.out.println(number + " is even.");
-        } else {
-            System.out.println(number + " is odd.");
-        }
-        
-        scanner.close();
+        int sum = num1 + num2;
+        System.out.println("The sum of " + num1 + " and " + num2 + " is: " + sum);
     }
 }
